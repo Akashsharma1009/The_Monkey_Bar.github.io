@@ -1,0 +1,67 @@
+#header{
+    flex-direction:column;
+    font-size: .4rem;
+    align-items: center;
+    height: 80px;
+}
+#header img {
+    height: 3rem;
+}
+#header h1{
+    text-shadow: 1px 2px black;
+    font-size: 3em;
+}
+.box li a{
+    font-size: 10px;
+    padding:0px;
+    margin: 20px 17px;
+}
+#Home::before{
+    height: 30%;
+}
+#Home{
+    height: 210px;
+}
+.h-primary {
+        margin-top: 3em;
+        font-size: 2em;
+}
+.h-secondary {
+    font-size: 1em;
+    animation-name: tagline;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: forward;
+}
+    @keyframes tagline {
+        From{
+            font-size: 0px;
+        }
+        To{
+            font-size: 1em;
+        }
+        
+        
+    }
+
+#thought{
+    margin-top: 15px;
+}
+#Beer-hub{
+    grid-template-columns: repeat(1, 1fr);
+}
+#thought::before {
+    height:20%
+}
+#footer{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+}
+.h-primary {
+    font-size: 1em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
